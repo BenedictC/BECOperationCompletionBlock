@@ -18,8 +18,8 @@
  *  @param queue The dispatch queue that block will be asynchronously enqueued to. If NULL then the main queue is used.
  *  @param block The block to execute on completion. operation is the completed operation.
  */
-
 -(void(^)(void))EMK_newCompletionBlockUsingDispatchQueue:(dispatch_queue_t)queue block:(void(^)(NSOperation *op))block;
+
 
 
 /**

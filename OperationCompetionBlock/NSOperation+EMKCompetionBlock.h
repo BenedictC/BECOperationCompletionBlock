@@ -19,7 +19,7 @@
  *  @param block The block to execute on completion. operation is the completed operation.
  */
 
--(void(^)(void))EMK_newCompletionBlockUsingDispatchQueue:(dispatch_queue_t)queue block:(void(^)(NSOperation *operation))block;
+-(void(^)(void))EMK_newCompletionBlockUsingDispatchQueue:(dispatch_queue_t)queue block:(void(^)(NSOperation *op))block;
 
 
 /**

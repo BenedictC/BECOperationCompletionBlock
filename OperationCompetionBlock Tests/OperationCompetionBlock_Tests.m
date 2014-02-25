@@ -40,17 +40,15 @@ static void FIRE_RUNLOOP_FOR(NSTimeInterval relativeTimeout) {
 
 @implementation OperationCompetionBlock_Tests
 
-- (void)testCompletionBlock
+- (void)testCompletionBlockIsFired
 {
     __block BOOL didRun = NO;
     __block BOOL didComplete = NO;
     NSBlockOperation *operation = [NSBlockOperation blockOperationWithBlock:^{
-        XCTAssertFalse([NSThread isMainThread], @"Not background queue. Following tests pointless.");
         didRun = YES;
     }];
 
     [operation EMK_setCompletionBlockUsingDispatchQueue:NULL block:^(id operation) {
-        XCTAssertTrue([NSThread isMainThread], @"Completion block not executing on correct queue.");
         didComplete = YES;
     }];
 
@@ -58,10 +56,39 @@ static void FIRE_RUNLOOP_FOR(NSTimeInterval relativeTimeout) {
     [queue addOperation:operation];
 
     //Fire the run loop so that the operation can execute.
-    FIRE_RUNLOOP_FOR(1);
+    FIRE_RUNLOOP_UNTIL(^BOOL{
+        return didRun && didComplete;
+    }, 1);
 
     XCTAssertTrue(didRun, @"Operation failed to execute.");
     XCTAssertTrue(didComplete, @"Operation failed to complete.");
+}
+
+
+
+-(void)testRetainCycleIsAvoided {
+    NSBlockOperation *operation = [NSBlockOperation blockOperationWithBlock:^{}];
+    __block BOOL didComplete = NO;
+    [operation EMK_setCompletionBlockUsingDispatchQueue:NULL block:^(NSOperation *operation) {
+        didComplete = YES;
+    }];
+
+    NSOperationQueue *queue = [NSOperationQueue new];
+    [queue addOperation:operation];
+
+    FIRE_RUNLOOP_UNTIL(^BOOL{
+        return didComplete;
+    }, 1);
+
+    XCTAssertTrue(didComplete, @"Failed to complete operation (therefore subsequent tests are uniformative).");
+    XCTAssertTrue(queue.operationCount == 0, @"Operation still enqueued (therefore subsequent tests are uniformative).");
+
+    __weak NSOperation *weakOperation = operation;
+    dispatch_async(dispatch_get_main_queue(), ^(void){
+        XCTAssertNil(weakOperation, @"Failed to break retain cycle.");
+    });
+    operation = nil; //Operation is implicitly retained until this method exits. Setting to nil implicitly releases it.
+    FIRE_RUNLOOP_FOR(0);
 }
 
 @end

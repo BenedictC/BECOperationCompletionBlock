@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8228C98518BCC1B00081EE9E"
                BuildableName = "OperationCompetionBlock"
-               BlueprintName = "OperationCompetionBlock"
-               ReferencedContainer = "container:OperationCompetionBlock.xcodeproj">
+               BlueprintName = "EMKOperationCompetionBlock"
+               ReferencedContainer = "container:EMKOperationCompetionBlock.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8228C99D18BCCE230081EE9E"
                BuildableName = "OperationCompetionBlock Tests.xctest"
-               BlueprintName = "OperationCompetionBlock Tests"
-               ReferencedContainer = "container:OperationCompetionBlock.xcodeproj">
+               BlueprintName = "EMKOperationCompetionBlock Tests"
+               ReferencedContainer = "container:EMKOperationCompetionBlock.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8228C98518BCC1B00081EE9E"
             BuildableName = "OperationCompetionBlock"
-            BlueprintName = "OperationCompetionBlock"
-            ReferencedContainer = "container:OperationCompetionBlock.xcodeproj">
+            BlueprintName = "EMKOperationCompetionBlock"
+            ReferencedContainer = "container:EMKOperationCompetionBlock.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8228C98518BCC1B00081EE9E"
             BuildableName = "OperationCompetionBlock"
-            BlueprintName = "OperationCompetionBlock"
-            ReferencedContainer = "container:OperationCompetionBlock.xcodeproj">
+            BlueprintName = "EMKOperationCompetionBlock"
+            ReferencedContainer = "container:EMKOperationCompetionBlock.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8228C98518BCC1B00081EE9E"
             BuildableName = "OperationCompetionBlock"
-            BlueprintName = "OperationCompetionBlock"
-            ReferencedContainer = "container:OperationCompetionBlock.xcodeproj">
+            BlueprintName = "EMKOperationCompetionBlock"
+            ReferencedContainer = "container:EMKOperationCompetionBlock.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

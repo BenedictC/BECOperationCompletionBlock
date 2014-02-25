@@ -1,5 +1,5 @@
 //
-//  NSOperation+EMKCompetionHandler.m
+//  NSOperation+EMKCompetionBlock.m
 //  OperationCompetionBlock
 //
 //  Created by Benedict Cohen on 25/02/2014.

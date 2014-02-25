@@ -39,18 +39,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8228C98618BCC1B00081EE9E /* OperationCompetionBlock */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OperationCompetionBlock; sourceTree = BUILT_PRODUCTS_DIR; };
+		8228C98618BCC1B00081EE9E /* EMKOperationCompetionBlock */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EMKOperationCompetionBlock; sourceTree = BUILT_PRODUCTS_DIR; };
 		8228C98918BCC1B00081EE9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8228C98C18BCC1B00081EE9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8228C98F18BCC1B00081EE9E /* OperationCompetionBlock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OperationCompetionBlock-Prefix.pch"; sourceTree = "<group>"; };
+		8228C98F18BCC1B00081EE9E /* EMKOperationCompetionBlock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EMKOperationCompetionBlock-Prefix.pch"; sourceTree = "<group>"; };
 		8228C99718BCC1DD0081EE9E /* NSOperation+EMKCompetionBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOperation+EMKCompetionBlock.h"; sourceTree = "<group>"; };
 		8228C99818BCC1DD0081EE9E /* NSOperation+EMKCompetionBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOperation+EMKCompetionBlock.m"; sourceTree = "<group>"; };
-		8228C99E18BCCE230081EE9E /* OperationCompetionBlock Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OperationCompetionBlock Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8228C99E18BCCE230081EE9E /* EMKOperationCompetionBlock Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EMKOperationCompetionBlock Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8228C99F18BCCE230081EE9E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		8228C9A318BCCE230081EE9E /* OperationCompetionBlock Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OperationCompetionBlock Tests-Info.plist"; sourceTree = "<group>"; };
+		8228C9A318BCCE230081EE9E /* EMKOperationCompetionBlock Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EMKOperationCompetionBlock Tests-Info.plist"; sourceTree = "<group>"; };
 		8228C9A518BCCE230081EE9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8228C9A718BCCE230081EE9E /* OperationCompetionBlock_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationCompetionBlock_Tests.m; sourceTree = "<group>"; };
-		8228C9A918BCCE230081EE9E /* OperationCompetionBlock Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OperationCompetionBlock Tests-Prefix.pch"; sourceTree = "<group>"; };
+		8228C9A918BCCE230081EE9E /* EMKOperationCompetionBlock Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EMKOperationCompetionBlock Tests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 		8228C98718BCC1B00081EE9E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8228C98618BCC1B00081EE9E /* OperationCompetionBlock */,
-				8228C99E18BCCE230081EE9E /* OperationCompetionBlock Tests.xctest */,
+				8228C98618BCC1B00081EE9E /* EMKOperationCompetionBlock */,
+				8228C99E18BCCE230081EE9E /* EMKOperationCompetionBlock Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,7 +115,7 @@
 		8228C98E18BCC1B00081EE9E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8228C98F18BCC1B00081EE9E /* OperationCompetionBlock-Prefix.pch */,
+				8228C98F18BCC1B00081EE9E /* EMKOperationCompetionBlock-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -132,9 +132,9 @@
 		8228C9A218BCCE230081EE9E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8228C9A318BCCE230081EE9E /* OperationCompetionBlock Tests-Info.plist */,
+				8228C9A318BCCE230081EE9E /* EMKOperationCompetionBlock Tests-Info.plist */,
 				8228C9A418BCCE230081EE9E /* InfoPlist.strings */,
-				8228C9A918BCCE230081EE9E /* OperationCompetionBlock Tests-Prefix.pch */,
+				8228C9A918BCCE230081EE9E /* EMKOperationCompetionBlock Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -142,9 +142,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8228C98518BCC1B00081EE9E /* OperationCompetionBlock */ = {
+		8228C98518BCC1B00081EE9E /* EMKOperationCompetionBlock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8228C99418BCC1B00081EE9E /* Build configuration list for PBXNativeTarget "OperationCompetionBlock" */;
+			buildConfigurationList = 8228C99418BCC1B00081EE9E /* Build configuration list for PBXNativeTarget "EMKOperationCompetionBlock" */;
 			buildPhases = (
 				8228C98218BCC1B00081EE9E /* Sources */,
 				8228C98318BCC1B00081EE9E /* Frameworks */,
@@ -154,14 +154,14 @@
 			);
 			dependencies = (
 			);
-			name = OperationCompetionBlock;
+			name = EMKOperationCompetionBlock;
 			productName = OperationCompetionBlock;
-			productReference = 8228C98618BCC1B00081EE9E /* OperationCompetionBlock */;
+			productReference = 8228C98618BCC1B00081EE9E /* EMKOperationCompetionBlock */;
 			productType = "com.apple.product-type.tool";
 		};
-		8228C99D18BCCE230081EE9E /* OperationCompetionBlock Tests */ = {
+		8228C99D18BCCE230081EE9E /* EMKOperationCompetionBlock Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8228C9AE18BCCE230081EE9E /* Build configuration list for PBXNativeTarget "OperationCompetionBlock Tests" */;
+			buildConfigurationList = 8228C9AE18BCCE230081EE9E /* Build configuration list for PBXNativeTarget "EMKOperationCompetionBlock Tests" */;
 			buildPhases = (
 				8228C99A18BCCE230081EE9E /* Sources */,
 				8228C99B18BCCE230081EE9E /* Frameworks */,
@@ -172,9 +172,9 @@
 			dependencies = (
 				8228C9AB18BCCE230081EE9E /* PBXTargetDependency */,
 			);
-			name = "OperationCompetionBlock Tests";
+			name = "EMKOperationCompetionBlock Tests";
 			productName = "OperationCompetionBlock Tests";
-			productReference = 8228C99E18BCCE230081EE9E /* OperationCompetionBlock Tests.xctest */;
+			productReference = 8228C99E18BCCE230081EE9E /* EMKOperationCompetionBlock Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -191,7 +191,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8228C98118BCC1B00081EE9E /* Build configuration list for PBXProject "OperationCompetionBlock" */;
+			buildConfigurationList = 8228C98118BCC1B00081EE9E /* Build configuration list for PBXProject "EMKOperationCompetionBlock" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -203,8 +203,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8228C98518BCC1B00081EE9E /* OperationCompetionBlock */,
-				8228C99D18BCCE230081EE9E /* OperationCompetionBlock Tests */,
+				8228C98518BCC1B00081EE9E /* EMKOperationCompetionBlock */,
+				8228C99D18BCCE230081EE9E /* EMKOperationCompetionBlock Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,7 +244,7 @@
 /* Begin PBXTargetDependency section */
 		8228C9AB18BCCE230081EE9E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8228C98518BCC1B00081EE9E /* OperationCompetionBlock */;
+			target = 8228C98518BCC1B00081EE9E /* EMKOperationCompetionBlock */;
 			targetProxy = 8228C9AA18BCCE230081EE9E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -333,8 +333,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OperationCompetionBlock/OperationCompetionBlock-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "OperationCompetionBlock/EMKOperationCompetionBlock-Prefix.pch";
+				PRODUCT_NAME = EMKOperationCompetionBlock;
 			};
 			name = Debug;
 		};
@@ -342,8 +342,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OperationCompetionBlock/OperationCompetionBlock-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "OperationCompetionBlock/EMKOperationCompetionBlock-Prefix.pch";
+				PRODUCT_NAME = EMKOperationCompetionBlock;
 			};
 			name = Release;
 		};
@@ -355,13 +355,13 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OperationCompetionBlock Tests/OperationCompetionBlock Tests-Prefix.pch";
+				GCC_PREFIX_HEADER = "OperationCompetionBlock Tests/EMKOperationCompetionBlock Tests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "OperationCompetionBlock Tests/OperationCompetionBlock Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "OperationCompetionBlock Tests/EMKOperationCompetionBlock Tests-Info.plist";
+				PRODUCT_NAME = "EMKOperationCompetionBlock Tests";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -374,9 +374,9 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OperationCompetionBlock Tests/OperationCompetionBlock Tests-Prefix.pch";
-				INFOPLIST_FILE = "OperationCompetionBlock Tests/OperationCompetionBlock Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "OperationCompetionBlock Tests/EMKOperationCompetionBlock Tests-Prefix.pch";
+				INFOPLIST_FILE = "OperationCompetionBlock Tests/EMKOperationCompetionBlock Tests-Info.plist";
+				PRODUCT_NAME = "EMKOperationCompetionBlock Tests";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -384,7 +384,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8228C98118BCC1B00081EE9E /* Build configuration list for PBXProject "OperationCompetionBlock" */ = {
+		8228C98118BCC1B00081EE9E /* Build configuration list for PBXProject "EMKOperationCompetionBlock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8228C99218BCC1B00081EE9E /* Debug */,
@@ -393,7 +393,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8228C99418BCC1B00081EE9E /* Build configuration list for PBXNativeTarget "OperationCompetionBlock" */ = {
+		8228C99418BCC1B00081EE9E /* Build configuration list for PBXNativeTarget "EMKOperationCompetionBlock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8228C99518BCC1B00081EE9E /* Debug */,
@@ -402,7 +402,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8228C9AE18BCCE230081EE9E /* Build configuration list for PBXNativeTarget "OperationCompetionBlock Tests" */ = {
+		8228C9AE18BCCE230081EE9E /* Build configuration list for PBXNativeTarget "EMKOperationCompetionBlock Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8228C9AC18BCCE230081EE9E /* Debug */,

@@ -87,7 +87,7 @@ static void FIRE_RUNLOOP_FOR(NSTimeInterval relativeTimeout) {
     dispatch_async(dispatch_get_main_queue(), ^(void){
         XCTAssertNil(weakOperation, @"Failed to break retain cycle.");
     });
-    operation = nil; //Operation is implicitly retained until this method exits. Setting to nil implicitly releases it.
+    operation = nil; //Local variables are implicitly retained until the method is popped from the stack. Setting to nil implicitly releases it.
     FIRE_RUNLOOP_FOR(0);
 }
 

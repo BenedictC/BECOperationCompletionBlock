@@ -1,6 +1,6 @@
 //
-//  NSOperation+EMKCompetionBlock.h
-//  OperationCompetionBlock
+//  NSOperation+EMKCompletionBlock.h
+//  OperationCompletionBlock
 //
 //  Created by Benedict Cohen on 25/02/2014.
 //  Copyright (c) 2014 Benedict Cohen. All rights reserved.
@@ -10,7 +10,7 @@
 
 
 
-@interface NSOperation (EMKCompetionBlock)
+@interface NSOperation (EMKCompletionBlock)
 
 /**
  *  Creates a block suitable for use with NSOperation's completionBlock property.

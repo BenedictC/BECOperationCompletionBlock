@@ -1,6 +1,6 @@
 //
 //  main.m
-//  OperationCompetionBlock
+//  OperationCompletionBlock
 //
 //  Created by Benedict Cohen on 25/02/2014.
 //  Copyright (c) 2014 Benedict Cohen. All rights reserved.

@@ -1,16 +1,16 @@
 //
-//  NSOperation+EMKCompetionBlock.m
+//  NSOperation+EMKCompletionBlock.m
 //  OperationCompetionBlock
 //
 //  Created by Benedict Cohen on 25/02/2014.
 //  Copyright (c) 2014 Benedict Cohen. All rights reserved.
 //
 
-#import "NSOperation+EMKCompetionBlock.h"
+#import "NSOperation+EMKCompletionBlock.h"
 
 
 
-@implementation NSOperation (EMKCompetionBlock)
+@implementation NSOperation (EMKCompletionBlock)
 
 -(void(^)(void))EMK_newCompletionBlockUsingDispatchQueue:(dispatch_queue_t)queue block:(void(^)(NSOperation *operation))block
 {

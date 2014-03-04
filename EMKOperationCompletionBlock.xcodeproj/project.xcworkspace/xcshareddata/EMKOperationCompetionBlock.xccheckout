@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>25BD744E-ED96-47C0-AE5C-5E8342F67277</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EMKOperationCompetionBlock</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C4748588-2A4F-48F2-8CC6-17B592A54197</key>
+		<string>https://github.com/BenedictC/EMKOperationCompletionBlock.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EMKOperationCompetionBlock.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C4748588-2A4F-48F2-8CC6-17B592A54197</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/BenedictC/EMKOperationCompletionBlock.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C4748588-2A4F-48F2-8CC6-17B592A54197</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C4748588-2A4F-48F2-8CC6-17B592A54197</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EMKOperationCompletionBlock</string>
+		</dict>
+	</array>
+</dict>
+</plist>

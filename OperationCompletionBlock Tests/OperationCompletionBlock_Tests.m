@@ -1,13 +1,13 @@
 //
-//  OperationCompetionBlock_Tests.m
-//  OperationCompetionBlock Tests
+//  OperationCompletionBlock_Tests.m
+//  OperationCompletionBlock Tests
 //
 //  Created by Benedict Cohen on 25/02/2014.
 //  Copyright (c) 2014 Benedict Cohen. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
-#import "NSOperation+EMKCompetionBlock.h"
+#import "NSOperation+EMKCompletionBlock.h"
 
 
 
@@ -33,12 +33,12 @@ static void FIRE_RUNLOOP_FOR(NSTimeInterval relativeTimeout) {
 
 
 
-@interface OperationCompetionBlock_Tests : XCTestCase
+@interface OperationCompletionBlock_Tests : XCTestCase
 @end
 
 
 
-@implementation OperationCompetionBlock_Tests
+@implementation OperationCompletionBlock_Tests
 
 - (void)testCompletionBlockIsFired
 {

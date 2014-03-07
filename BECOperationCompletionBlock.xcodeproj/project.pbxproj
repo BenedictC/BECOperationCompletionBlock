@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		8228C98A18BCC1B00081EE9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8228C98918BCC1B00081EE9E /* Foundation.framework */; };
 		8228C98D18BCC1B00081EE9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8228C98C18BCC1B00081EE9E /* main.m */; };
-		8228C99918BCC1DD0081EE9E /* NSOperation+EMKCompletionBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 8228C99818BCC1DD0081EE9E /* NSOperation+EMKCompletionBlock.m */; };
+		8228C99918BCC1DD0081EE9E /* NSOperation+BECCompletionBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 8228C99818BCC1DD0081EE9E /* NSOperation+BECCompletionBlock.m */; };
 		8228C9A018BCCE230081EE9E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8228C99F18BCCE230081EE9E /* XCTest.framework */; };
 		8228C9A618BCCE230081EE9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8228C9A418BCCE230081EE9E /* InfoPlist.strings */; };
 		8228C9A818BCCE230081EE9E /* OperationCompletionBlock_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8228C9A718BCCE230081EE9E /* OperationCompletionBlock_Tests.m */; };
-		8228C9AF18BCD52B0081EE9E /* NSOperation+EMKCompletionBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 8228C99818BCC1DD0081EE9E /* NSOperation+EMKCompletionBlock.m */; };
+		8228C9AF18BCD52B0081EE9E /* NSOperation+BECCompletionBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 8228C99818BCC1DD0081EE9E /* NSOperation+BECCompletionBlock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,18 +39,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8228C98618BCC1B00081EE9E /* EMKOperationCompletionBlock */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EMKOperationCompletionBlock; sourceTree = BUILT_PRODUCTS_DIR; };
+		8228C98618BCC1B00081EE9E /* BECOperationCompletionBlock */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BECOperationCompletionBlock; sourceTree = BUILT_PRODUCTS_DIR; };
 		8228C98918BCC1B00081EE9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8228C98C18BCC1B00081EE9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8228C98F18BCC1B00081EE9E /* EMKOperationCompletionBlock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EMKOperationCompletionBlock-Prefix.pch"; sourceTree = "<group>"; };
-		8228C99718BCC1DD0081EE9E /* NSOperation+EMKCompletionBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOperation+EMKCompletionBlock.h"; sourceTree = "<group>"; };
-		8228C99818BCC1DD0081EE9E /* NSOperation+EMKCompletionBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOperation+EMKCompletionBlock.m"; sourceTree = "<group>"; };
-		8228C99E18BCCE230081EE9E /* EMKOperationCompletionBlock Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EMKOperationCompletionBlock Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8228C98F18BCC1B00081EE9E /* BECOperationCompletionBlock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BECOperationCompletionBlock-Prefix.pch"; sourceTree = "<group>"; };
+		8228C99718BCC1DD0081EE9E /* NSOperation+BECCompletionBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOperation+BECCompletionBlock.h"; sourceTree = "<group>"; };
+		8228C99818BCC1DD0081EE9E /* NSOperation+BECCompletionBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOperation+BECCompletionBlock.m"; sourceTree = "<group>"; };
+		8228C99E18BCCE230081EE9E /* BECOperationCompletionBlock Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BECOperationCompletionBlock Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8228C99F18BCCE230081EE9E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		8228C9A318BCCE230081EE9E /* EMKOperationCompletionBlock Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EMKOperationCompletionBlock Tests-Info.plist"; sourceTree = "<group>"; };
+		8228C9A318BCCE230081EE9E /* BECOperationCompletionBlock Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BECOperationCompletionBlock Tests-Info.plist"; sourceTree = "<group>"; };
 		8228C9A518BCCE230081EE9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8228C9A718BCCE230081EE9E /* OperationCompletionBlock_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationCompletionBlock_Tests.m; sourceTree = "<group>"; };
-		8228C9A918BCCE230081EE9E /* EMKOperationCompletionBlock Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EMKOperationCompletionBlock Tests-Prefix.pch"; sourceTree = "<group>"; };
+		8228C9A918BCCE230081EE9E /* BECOperationCompletionBlock Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BECOperationCompletionBlock Tests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 		8228C98718BCC1B00081EE9E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8228C98618BCC1B00081EE9E /* EMKOperationCompletionBlock */,
-				8228C99E18BCCE230081EE9E /* EMKOperationCompletionBlock Tests.xctest */,
+				8228C98618BCC1B00081EE9E /* BECOperationCompletionBlock */,
+				8228C99E18BCCE230081EE9E /* BECOperationCompletionBlock Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,8 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				8228C98C18BCC1B00081EE9E /* main.m */,
-				8228C99718BCC1DD0081EE9E /* NSOperation+EMKCompletionBlock.h */,
-				8228C99818BCC1DD0081EE9E /* NSOperation+EMKCompletionBlock.m */,
+				8228C99718BCC1DD0081EE9E /* NSOperation+BECCompletionBlock.h */,
+				8228C99818BCC1DD0081EE9E /* NSOperation+BECCompletionBlock.m */,
 				8228C98E18BCC1B00081EE9E /* Supporting Files */,
 			);
 			path = OperationCompletionBlock;
@@ -115,7 +115,7 @@
 		8228C98E18BCC1B00081EE9E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8228C98F18BCC1B00081EE9E /* EMKOperationCompletionBlock-Prefix.pch */,
+				8228C98F18BCC1B00081EE9E /* BECOperationCompletionBlock-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -132,9 +132,9 @@
 		8228C9A218BCCE230081EE9E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8228C9A318BCCE230081EE9E /* EMKOperationCompletionBlock Tests-Info.plist */,
+				8228C9A318BCCE230081EE9E /* BECOperationCompletionBlock Tests-Info.plist */,
 				8228C9A418BCCE230081EE9E /* InfoPlist.strings */,
-				8228C9A918BCCE230081EE9E /* EMKOperationCompletionBlock Tests-Prefix.pch */,
+				8228C9A918BCCE230081EE9E /* BECOperationCompletionBlock Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -142,9 +142,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8228C98518BCC1B00081EE9E /* EMKOperationCompletionBlock */ = {
+		8228C98518BCC1B00081EE9E /* BECOperationCompletionBlock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8228C99418BCC1B00081EE9E /* Build configuration list for PBXNativeTarget "EMKOperationCompletionBlock" */;
+			buildConfigurationList = 8228C99418BCC1B00081EE9E /* Build configuration list for PBXNativeTarget "BECOperationCompletionBlock" */;
 			buildPhases = (
 				8228C98218BCC1B00081EE9E /* Sources */,
 				8228C98318BCC1B00081EE9E /* Frameworks */,
@@ -154,14 +154,14 @@
 			);
 			dependencies = (
 			);
-			name = EMKOperationCompletionBlock;
+			name = BECOperationCompletionBlock;
 			productName = OperationCompetionBlock;
-			productReference = 8228C98618BCC1B00081EE9E /* EMKOperationCompletionBlock */;
+			productReference = 8228C98618BCC1B00081EE9E /* BECOperationCompletionBlock */;
 			productType = "com.apple.product-type.tool";
 		};
-		8228C99D18BCCE230081EE9E /* EMKOperationCompletionBlock Tests */ = {
+		8228C99D18BCCE230081EE9E /* BECOperationCompletionBlock Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8228C9AE18BCCE230081EE9E /* Build configuration list for PBXNativeTarget "EMKOperationCompletionBlock Tests" */;
+			buildConfigurationList = 8228C9AE18BCCE230081EE9E /* Build configuration list for PBXNativeTarget "BECOperationCompletionBlock Tests" */;
 			buildPhases = (
 				8228C99A18BCCE230081EE9E /* Sources */,
 				8228C99B18BCCE230081EE9E /* Frameworks */,
@@ -172,9 +172,9 @@
 			dependencies = (
 				8228C9AB18BCCE230081EE9E /* PBXTargetDependency */,
 			);
-			name = "EMKOperationCompletionBlock Tests";
+			name = "BECOperationCompletionBlock Tests";
 			productName = "OperationCompetionBlock Tests";
-			productReference = 8228C99E18BCCE230081EE9E /* EMKOperationCompletionBlock Tests.xctest */;
+			productReference = 8228C99E18BCCE230081EE9E /* BECOperationCompletionBlock Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -191,7 +191,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8228C98118BCC1B00081EE9E /* Build configuration list for PBXProject "EMKOperationCompletionBlock" */;
+			buildConfigurationList = 8228C98118BCC1B00081EE9E /* Build configuration list for PBXProject "BECOperationCompletionBlock" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -203,8 +203,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8228C98518BCC1B00081EE9E /* EMKOperationCompletionBlock */,
-				8228C99D18BCCE230081EE9E /* EMKOperationCompletionBlock Tests */,
+				8228C98518BCC1B00081EE9E /* BECOperationCompletionBlock */,
+				8228C99D18BCCE230081EE9E /* BECOperationCompletionBlock Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -225,7 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8228C99918BCC1DD0081EE9E /* NSOperation+EMKCompletionBlock.m in Sources */,
+				8228C99918BCC1DD0081EE9E /* NSOperation+BECCompletionBlock.m in Sources */,
 				8228C98D18BCC1B00081EE9E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,7 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8228C9A818BCCE230081EE9E /* OperationCompletionBlock_Tests.m in Sources */,
-				8228C9AF18BCD52B0081EE9E /* NSOperation+EMKCompletionBlock.m in Sources */,
+				8228C9AF18BCD52B0081EE9E /* NSOperation+BECCompletionBlock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,7 +244,7 @@
 /* Begin PBXTargetDependency section */
 		8228C9AB18BCCE230081EE9E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8228C98518BCC1B00081EE9E /* EMKOperationCompletionBlock */;
+			target = 8228C98518BCC1B00081EE9E /* BECOperationCompletionBlock */;
 			targetProxy = 8228C9AA18BCCE230081EE9E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -333,8 +333,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OperationCompletionBlock/EMKOperationCompletionBlock-Prefix.pch";
-				PRODUCT_NAME = EMKOperationCompletionBlock;
+				GCC_PREFIX_HEADER = "OperationCompletionBlock/BECOperationCompletionBlock-Prefix.pch";
+				PRODUCT_NAME = BECOperationCompletionBlock;
 			};
 			name = Debug;
 		};
@@ -342,8 +342,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OperationCompletionBlock/EMKOperationCompletionBlock-Prefix.pch";
-				PRODUCT_NAME = EMKOperationCompletionBlock;
+				GCC_PREFIX_HEADER = "OperationCompletionBlock/BECOperationCompletionBlock-Prefix.pch";
+				PRODUCT_NAME = BECOperationCompletionBlock;
 			};
 			name = Release;
 		};
@@ -355,13 +355,13 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OperationCompletionBlock Tests/EMKOperationCompletionBlock Tests-Prefix.pch";
+				GCC_PREFIX_HEADER = "OperationCompletionBlock Tests/BECOperationCompletionBlock Tests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "OperationCompletionBlock Tests/EMKOperationCompletionBlock Tests-Info.plist";
-				PRODUCT_NAME = "EMKOperationCompletionBlock Tests";
+				INFOPLIST_FILE = "OperationCompletionBlock Tests/BECOperationCompletionBlock Tests-Info.plist";
+				PRODUCT_NAME = "BECOperationCompletionBlock Tests";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -374,9 +374,9 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OperationCompletionBlock Tests/EMKOperationCompletionBlock Tests-Prefix.pch";
-				INFOPLIST_FILE = "OperationCompletionBlock Tests/EMKOperationCompletionBlock Tests-Info.plist";
-				PRODUCT_NAME = "EMKOperationCompletionBlock Tests";
+				GCC_PREFIX_HEADER = "OperationCompletionBlock Tests/BECOperationCompletionBlock Tests-Prefix.pch";
+				INFOPLIST_FILE = "OperationCompletionBlock Tests/BECOperationCompletionBlock Tests-Info.plist";
+				PRODUCT_NAME = "BECOperationCompletionBlock Tests";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -384,7 +384,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8228C98118BCC1B00081EE9E /* Build configuration list for PBXProject "EMKOperationCompletionBlock" */ = {
+		8228C98118BCC1B00081EE9E /* Build configuration list for PBXProject "BECOperationCompletionBlock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8228C99218BCC1B00081EE9E /* Debug */,
@@ -393,7 +393,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8228C99418BCC1B00081EE9E /* Build configuration list for PBXNativeTarget "EMKOperationCompletionBlock" */ = {
+		8228C99418BCC1B00081EE9E /* Build configuration list for PBXNativeTarget "BECOperationCompletionBlock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8228C99518BCC1B00081EE9E /* Debug */,
@@ -402,7 +402,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8228C9AE18BCCE230081EE9E /* Build configuration list for PBXNativeTarget "EMKOperationCompletionBlock Tests" */ = {
+		8228C9AE18BCCE230081EE9E /* Build configuration list for PBXNativeTarget "BECOperationCompletionBlock Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8228C9AC18BCCE230081EE9E /* Debug */,

@@ -88,7 +88,7 @@ static void FIRE_RUNLOOP_FOR(NSTimeInterval relativeTimeout) {
         XCTAssertNil(weakOperation, @"Failed to break retain cycle.");
     });
     operation = nil; //Local variables are retained until the method exit. Setting to nil releases them.
-    FIRE_RUNLOOP_FOR(.5);
+    FIRE_RUNLOOP_FOR(.5); //Required to run the final test
 }
 
 @end
